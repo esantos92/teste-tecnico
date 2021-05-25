@@ -1,0 +1,26 @@
+{
+  "name": "projeto-teste-estagio",
+  "version": "1.0.0",
+  "description": "projeto desenvolvido para teste técnico",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esantos92/projeto-teste-estagio.git"
+  },
+  "keywords": [],
+  "author": "Everton Santos de Souza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esantos92/projeto-teste-estagio/issues"
+  },
+  "homepage": "https://github.com/esantos92/projeto-teste-estagio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
