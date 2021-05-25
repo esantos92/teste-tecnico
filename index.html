@@ -8,13 +8,18 @@
   <link rel="stylesheet" href="./style/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <script src="./scripts/scripts.js" defer></script>
+  <title>Reprodutor</title>
 </head>
 
 <body>
   <div class="insertText">
     <h3>Comentário</h3>
-    <textarea name="comentario" id="comentario" maxlength="999"></textarea>
-    <button>Cadastrar</button>
+    <form>
+
+      <input id="comentario" type="text" required>
+      <input type="submit" id="btnSubmit" value="Cadastrar">
+    </form>
   </div>
 
   <div class="textPlay">
