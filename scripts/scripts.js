@@ -1,4 +1,4 @@
-const submit =document.querySelector("#btnSubmit")
+/*const submit =document.querySelector("#btnSubmit")
 
 submit.addEventListener("click", (send) => {
   send.preventDefault();
@@ -11,4 +11,4 @@ submit.addEventListener("click", (send) => {
   toReproduct.text= comment
 
   console.log(toReproduct)
-})
+})*/
