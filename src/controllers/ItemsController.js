@@ -1,15 +1,15 @@
-const data = require('../model/data')
+const Comments = require('../model/Comments');
+const datas = require('../model/Comments')
 
 module.exports = {
-  save(req, res) {
-
+  save(req, res) {      
+      const lastId = datas[datas.length - 1]?.id || 1;
+      const data = datas.get();
       
-      const lastId = data[data.length - 1]?.id || 1;
-    
-      data.get().push({
+      Comments.create({
         id: lastId,
         comment:req.body.comment
-      })
+      })    
     
       return res.redirect('/')
     }

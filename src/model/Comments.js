@@ -1,4 +1,4 @@
-let data = [
+let datas = [
   {
     id: 1,
     comment: "Pai nosso que estais no céu"
@@ -12,7 +12,11 @@ let data = [
 
 module.exports= {
   get(){
-    return data
+    return datas
+  },
+
+  create(newComment) {
+    datas.push(newComment)
   }
 }
 
