@@ -1,2 +1,2 @@
 # teste-tecnico
- projeto desenvolvido para teste técnico
+ aplicação desenvolvida para teste técnico
