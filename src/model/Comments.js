@@ -11,12 +11,13 @@ let datas = [
 ];
 
 module.exports= {
-  get(){
+  comments(){
     return datas
   },
 
   create(newComment) {
     datas.push(newComment)
+    
   }
 }
 
